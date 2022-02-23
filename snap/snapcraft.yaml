@@ -1,8 +1,8 @@
 name: gbeuzeboc-snapped-ros2-pkg
 version: '0.1'
-summary: Basic ROS1 package snap
+summary: Basic ROS2 package snap
 description: |
-  Basic ROS1 package snap with config and launchfile based on core20
+  Basic ROS2 package snap with config and launchfile based on core20
 
 grade: devel
 confinement: strict
