@@ -1,4 +1,4 @@
-# -snapped_ros2_pkg
+# snapped_ros2_pkg
 ROS2 (foxy) package, packed as a snap
 ## How to generate the snap
 - `snapcraft --enable-experimental-extensions`
