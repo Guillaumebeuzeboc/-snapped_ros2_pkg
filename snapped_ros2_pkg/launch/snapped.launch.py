@@ -14,7 +14,7 @@ def generate_launch_description():
         [
             Node(
                 package="snapped_ros2_pkg",
-                executable="snapped_ros2_pkg_node",
+                node_executable="snapped_ros2_pkg_node",
                 name="snapped_ros2_pkg_node",
                 parameters=[config],
             )
