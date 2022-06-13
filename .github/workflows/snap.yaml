@@ -25,9 +25,9 @@ jobs:
     # Make sure the snap is installable
     - run: |
         sudo snap install --dangerous ${{ steps.build-snap.outputs.snap }}
-    # @todo Do some testing with the snap
+    # Do some testing with the snap
     - run: |
-        gbeuzeboc-snapped-ros2-pkg.snapped-ros2-pkg --print-description
+        gbeuzeboc-snapped-ros2-pkg.snapped-ros2-launch --print-description
     - uses: actions/upload-artifact@v3
       with:
         name: gbeuzeboc-snapped-ros2-pkg
