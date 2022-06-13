@@ -4,7 +4,7 @@ summary: Basic ROS2 package snap
 description: |
   Basic ROS2 package snap with config and launchfile based on core20
 
-grade: devel
+grade: stable
 confinement: strict
 base: core20
 
